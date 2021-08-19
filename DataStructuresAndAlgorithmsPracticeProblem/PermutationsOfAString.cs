@@ -22,7 +22,6 @@ namespace DataStructuresAndAlgorithmsPracticeProblem
             int len = str.Length;
             Console.WriteLine("All the permutations of the string are: ");
             generatePermutation(str, 0, len);
-
         }
 
         public static void generatePermutation(String str, int start, int end)
