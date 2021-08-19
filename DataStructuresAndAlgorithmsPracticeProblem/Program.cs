@@ -8,7 +8,8 @@ namespace DataStructuresAndAlgorithmsPracticeProblem
         {
             Console.WriteLine("Enter \n1. Permutations of a String" +
                                     "\n2. Binary Search A Word" +
-                                    "\n3. Insertion Sort");
+                                    "\n3. Insertion Sort" +
+                                    "\n4. Bubble Sort");
 
             switch (int.Parse(Console.ReadLine()))
             {
@@ -22,6 +23,10 @@ namespace DataStructuresAndAlgorithmsPracticeProblem
 
                 case 3:
                     InsertionSort.StringInput();
+                    break;
+
+                case 4:
+                    BubbleSort.Input();
                     break;
             }
         }
