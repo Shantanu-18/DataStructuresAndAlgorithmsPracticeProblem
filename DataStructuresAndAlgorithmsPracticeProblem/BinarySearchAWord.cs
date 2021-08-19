@@ -18,11 +18,9 @@ namespace DataStructuresAndAlgorithmsPracticeProblem
                 if (res == 0)
                     return m;
 
-                // If x greater, ignore left half
                 if (res > 0)
                     l = m + 1;
 
-                // If x is smaller, ignore right half
                 else
                     r = m - 1;
             }
