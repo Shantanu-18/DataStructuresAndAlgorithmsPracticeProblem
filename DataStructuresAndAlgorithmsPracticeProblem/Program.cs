@@ -7,7 +7,8 @@ namespace DataStructuresAndAlgorithmsPracticeProblem
         static void Main(string[] args)
         {
             Console.WriteLine("Enter \n1. Permutations of a String" +
-                                    "\n2. Binary Search A Word");
+                                    "\n2. Binary Search A Word" +
+                                    "\n3. Insertion Sort");
 
             switch (int.Parse(Console.ReadLine()))
             {
@@ -17,6 +18,10 @@ namespace DataStructuresAndAlgorithmsPracticeProblem
 
                 case 2:
                     BinarySearchAWord.StringInput();
+                    break;
+
+                case 3:
+                    InsertionSort.StringInput();
                     break;
             }
         }
